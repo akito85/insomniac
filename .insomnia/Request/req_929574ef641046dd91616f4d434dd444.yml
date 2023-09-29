@@ -1,0 +1,25 @@
+_id: req_929574ef641046dd91616f4d434dd444
+type: Request
+parentId: fld_a329f1a92c3841448ff08bbc10f9a40f
+modified: 1695979154205
+created: 1695978408948
+url: http://127.0.0.1:3000/api/inventories/2
+name: select
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJzdWRvIiwiaWF0IjoxNjk1OTcxODk4LCJpc3MiOiJ1cm46bnhzOmlzc3VlciIsImF1ZCI6InVybjpueHM6YXVkaWVuY2UiLCJleHAiOjE2OTYyMzEwOTh9.nYlAryhDpcflR_jgA5luizc7MRDFG9pmJjBFUSshnws
+metaSortKey: -1695973486662
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

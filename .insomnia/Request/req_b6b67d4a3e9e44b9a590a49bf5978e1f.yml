@@ -1,0 +1,45 @@
+_id: req_b6b67d4a3e9e44b9a590a49bf5978e1f
+type: Request
+parentId: fld_a329f1a92c3841448ff08bbc10f9a40f
+modified: 1695979099821
+created: 1695978408947
+url: http://127.0.0.1:3000/api/inventories
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"data": {
+    		"name": "DG 413",
+    		"desc": "SENAPAN PANJANG",
+    		"category_name": "Tidak habis",
+    		"site": [
+    			{
+    				"id": 3,
+    				"name": "MABES D",
+    				"latitude": 123211231,
+    				"longitude": 123123231
+    			}
+    		],
+    		"total": 15
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJzdWRvIiwiaWF0IjoxNjk1OTcxODk4LCJpc3MiOiJ1cm46bnhzOmlzc3VlciIsImF1ZCI6InVybjpueHM6YXVkaWVuY2UiLCJleHAiOjE2OTYyMzEwOTh9.nYlAryhDpcflR_jgA5luizc7MRDFG9pmJjBFUSshnws
+metaSortKey: -1695972339213
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,35 @@
+_id: req_5ee03cb82b7646dda814730061db8232
+type: Request
+parentId: fld_3b7d4dd0256d486cbd40dd4d371a0462
+modified: 1695884974761
+created: 1695855093752
+url: http://127.0.0.1:3000/api/users/1
+name: update
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"data": {
+    		"username": "sudo",
+    		"password": "sudo123",
+    		"created_by": "superadmin",
+    		"updated_by": "superadmin"
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication: {}
+metaSortKey: -1694505821937.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

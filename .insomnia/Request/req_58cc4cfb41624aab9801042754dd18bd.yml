@@ -1,0 +1,35 @@
+_id: req_58cc4cfb41624aab9801042754dd18bd
+type: Request
+parentId: fld_0e4d58017a624c75864e4b808a40f227
+modified: 1695970977862
+created: 1695970956650
+url: http://127.0.0.1:3000/api/auth/login/11000004290971
+name: login personnel
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"data": {
+    		"username": "11000004290971",
+    		"password": "sudo123"
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: ""
+metaSortKey: -1695843306030.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

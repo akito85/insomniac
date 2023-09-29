@@ -1,0 +1,27 @@
+_id: req_bee3f14fb8d0442887bb193f84136b7a
+type: Request
+parentId: fld_3b7d4dd0256d486cbd40dd4d371a0462
+modified: 1695884736071
+created: 1695884339778
+url: http://127.0.0.1:3000/api/users/4
+name: delete
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication: {}
+metaSortKey: -1693861667087.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

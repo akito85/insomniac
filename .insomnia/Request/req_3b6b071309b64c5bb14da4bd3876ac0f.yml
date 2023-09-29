@@ -1,0 +1,23 @@
+_id: req_3b6b071309b64c5bb14da4bd3876ac0f
+type: Request
+parentId: wrk_1685184b106d49099e6a969426bb4325
+modified: 1695972332480
+created: 1695971744154
+url: http://localhost:3000
+name: Home
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication: {}
+metaSortKey: -1695972323923
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,34 @@
+_id: req_16c60790f62d42f6a74ea47dff87224c
+type: Request
+parentId: fld_d5d2dc6c50594efdbaf121dd7b7152b8
+modified: 1695976518682
+created: 1695976423827
+url: http://127.0.0.1:3000/api/assignments/2
+name: update
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"data": {
+    		"status": "IN PROGRESS"
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJzdWRvIiwiaWF0IjoxNjk1OTcxODk4LCJpc3MiOiJ1cm46bnhzOmlzc3VlciIsImF1ZCI6InVybjpueHM6YXVkaWVuY2UiLCJleHAiOjE2OTYyMzEwOTh9.nYlAryhDpcflR_jgA5luizc7MRDFG9pmJjBFUSshnws
+metaSortKey: -1695972339113
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
